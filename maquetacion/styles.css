@@ -6,21 +6,49 @@ html {
     font-size: 16px;
 }
 
-p {
+div#navbar-right p a,div#navbar-right a, div#enviar a{
     margin-right: 2em;
-    font-weight: bold;
     font-size: 0.9em;
     font-weight: 500;
 }
+
+div#enviar a{
+
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+p a {
+    color: black;
+    text-decoration: none;
+}
+
+#contacto a{
+    color: blueviolet;
+}
+
+
 
 button {
     background-color: white;
     border-radius: 30px;
     padding: 0px 1.5em;
-    height: 2.5em;
+    height: 3em;
     border: 2px solid black;
     font-size: 0.8em;
     width: 8em;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 div#navbar-left img {

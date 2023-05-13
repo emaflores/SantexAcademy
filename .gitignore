@@ -1,0 +1,26 @@
+# Mac OS files
+*.DS_Store
+
+# Visual Studio Code files
+*.vscode/
+
+# Node.js files
+node_modules/
+
+# Compiled files
+*.log
+*.min.js
+*.min.css
+
+# Cache and build files
+.cache/
+build/
+dist/
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
