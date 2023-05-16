@@ -1,10 +1,17 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+  }
+  
 
 div#navbar-right p a,div#navbar-right a, div#enviar a{
     margin-right: 2em;
@@ -66,3 +73,332 @@ div#navbar-left img {
         font-size: 32px;
     }
 }
+
+.content {
+    background-image: url('twp-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .content2 {
+    background-image: url('equipo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    
+    margin-right: 2em;
+  }
+  
+  .image-container img {
+    border-radius: 0 7% 7% 7%;
+    width: 31em;
+    height: 20em;
+  }
+  
+  .logo-container {
+    margin-bottom: 1em;
+  }
+  
+  .logo-container img {
+    width: 8em;
+    height: 3em;
+  }
+  
+  .paragraph-container p {
+    font-size: 1.2em;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .grid-item {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+  }
+  
+  .grid-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    margin: -15px;
+  }
+  
+  .col {
+    width: 20%;
+    padding: 15px;
+  }
+  
+  .item {
+    background-color: white;
+    text-align: center;
+    border-radius: 10%;
+  }
+  
+  .image {
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border-radius: 10%;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .subtitle1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .subtitle2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  .logo {
+    height: 30px;
+  }
+  
+  .logo img {
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  
+  
+  .counter, .counter2, .counter3, .label {
+    padding: 0 10%;
+    flex-basis: 33%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .counter:after {
+    font-size: 4em;
+    content: "58";
+    display: block;
+    color: white;
+    text-align: center;
+    animation: counter 1.5s linear 1 ;
+  }
+
+  .counter2:after {
+    font-size: 4em;
+    content: "50";
+    display: block;
+    color: white;
+    text-align: center;
+    animation: counter2 1.5s linear 1 ;
+  }
+
+  .counter3:after {
+    font-size: 4em;
+    content: "301";
+    display: block;
+    color: white;
+    text-align: center;
+    animation: counter3 1.5s linear 1 ;
+  }
+  
+  
+  @keyframes counter {
+    1% { content: "1"; color: white; }
+    2% { content: "2"; color: white; }
+    3% { content: "3"; color: white; }
+    4% { content: "4"; color: white; }
+    5% { content: "5"; color: white; }
+    6% { content: "6"; color: white; }
+    7% { content: "7"; color: white; }
+    8% { content: "8"; color: white; }
+    9% { content: "9"; color: white; }
+    10% { content: "10"; color: white; }
+    11% { content: "11"; color: white; }
+    12% { content: "12"; color: white; }
+    13% { content: "13"; color: white; }
+    14% { content: "14"; color: white; }
+    15% { content: "15"; color: white; }
+    16% { content: "16"; color: white; }
+    17% { content: "17"; color: white; }
+    18% { content: "18"; color: white; }
+    19% { content: "19"; color: white; }
+    20% { content: "20"; color: white; }
+    21% { content: "21"; color: white; }
+    22% { content: "22"; color: white; }
+    23% { content: "23"; color: white; }
+    24% { content: "24"; color: white; }
+    25% { content: "25"; color: white; }
+    26% { content: "26"; color: white; }
+    27% { content: "27"; color: white; }
+    28% { content: "28"; color: white; }
+    29% { content: "29"; color: white; }
+    30% { content: "30"; color: white; }
+    31% { content: "31"; color: white; }
+    32% { content: "32"; color: white; }
+    33% { content: "33"; color: white; }
+    34% { content: "34"; color: white; }
+    35% { content: "35"; color: white; }
+    36% { content: "36"; color: white; }
+    37% { content: "37"; color: white; }
+    38% { content: "38"; color: white; }
+    39% { content: "39"; color: white; }
+    40% { content: "40"; color: white; }
+    41% { content: "41"; color: white; }
+    42% { content: "42"; color: white; }
+    43% { content: "43"; color: white; }
+    44% { content: "44"; color: white; }
+    45% { content: "45"; color: white; }
+    46% { content: "46"; color: white; }
+    47% { content: "47"; color: white; }
+    48% { content: "48"; color: white; }
+    49% { content: "49"; color: white; }
+    50% { content: "58"; color: white; }
+  }
+
+  @keyframes counter2 {
+    1% { content: "1"; color: white; }
+    2% { content: "2"; color: white; }
+    3% { content: "3"; color: white; }
+    4% { content: "4"; color: white; }
+    5% { content: "5"; color: white; }
+    6% { content: "6"; color: white; }
+    7% { content: "7"; color: white; }
+    8% { content: "8"; color: white; }
+    9% { content: "9"; color: white; }
+    10% { content: "10"; color: white; }
+    11% { content: "11"; color: white; }
+    12% { content: "12"; color: white; }
+    13% { content: "13"; color: white; }
+    14% { content: "14"; color: white; }
+    15% { content: "15"; color: white; }
+    16% { content: "16"; color: white; }
+    17% { content: "17"; color: white; }
+    18% { content: "18"; color: white; }
+    19% { content: "19"; color: white; }
+    20% { content: "20"; color: white; }
+    21% { content: "21"; color: white; }
+    22% { content: "22"; color: white; }
+    23% { content: "23"; color: white; }
+    24% { content: "24"; color: white; }
+    25% { content: "25"; color: white; }
+    26% { content: "26"; color: white; }
+    27% { content: "27"; color: white; }
+    28% { content: "28"; color: white; }
+    29% { content: "29"; color: white; }
+    30% { content: "30"; color: white; }
+    31% { content: "31"; color: white; }
+    32% { content: "32"; color: white; }
+    33% { content: "33"; color: white; }
+    34% { content: "34"; color: white; }
+    35% { content: "35"; color: white; }
+    36% { content: "36"; color: white; }
+    37% { content: "37"; color: white; }
+    38% { content: "38"; color: white; }
+    39% { content: "39"; color: white; }
+    40% { content: "40"; color: white; }
+    41% { content: "41"; color: white; }
+    42% { content: "42"; color: white; }
+    43% { content: "43"; color: white; }
+    44% { content: "44"; color: white; }
+    45% { content: "45"; color: white; }
+    46% { content: "46"; color: white; }
+    47% { content: "47"; color: white; }
+    48% { content: "48"; color: white; }
+    49% { content: "49"; color: white; }
+    50% { content: "50"; color: white; }
+  }
+
+  @keyframes counter3 {
+    1% { content: "6"; color: white; }
+    2% { content: "12"; color: white; }
+    3% { content: "18"; color: white; }
+    4% { content: "24"; color: white; }
+    5% { content: "30"; color: white; }
+    6% { content: "36"; color: white; }
+    7% { content: "42"; color: white; }
+    8% { content: "48"; color: white; }
+    9% { content: "54"; color: white; }
+    10% { content: "60"; color: white; }
+    11% { content: "66"; color: white; }
+    12% { content: "72"; color: white; }
+    13% { content: "78"; color: white; }
+    14% { content: "84"; color: white; }
+    15% { content: "90"; color: white; }
+    16% { content: "96"; color: white; }
+    17% { content: "102"; color: white; }
+    18% { content: "108"; color: white; }
+    19% { content: "114"; color: white; }
+    20% { content: "120"; color: white; }
+    21% { content: "126"; color: white; }
+    22% { content: "132"; color: white; }
+    23% { content: "138"; color: white; }
+    24% { content: "144"; color: white; }
+    25% { content: "150"; color: white; }
+    26% { content: "156"; color: white; }
+    27% { content: "162"; color: white; }
+    28% { content: "168"; color: white; }
+    29% { content: "174"; color: white; }
+    30% { content: "180"; color: white; }
+    31% { content: "186"; color: white; }
+    32% { content: "192"; color: white; }
+    33% { content: "198"; color: white; }
+    34% { content: "204"; color: white; }
+    35% { content: "210"; color: white; }
+    36% { content: "216"; color: white; }
+    37% { content: "222"; color: white; }
+    38% { content: "228"; color: white; }
+    39% { content: "234"; color: white; }
+    40% { content: "240"; color: white; }
+    41% { content: "246"; color: white; }
+    42% { content: "252"; color: white; }
+    43% { content: "258"; color: white; }
+    44% { content: "264"; color: white; }
+    45% { content: "270"; color: white; }
+    46% { content: "276"; color: white; }
+    47% { content: "282"; color: white; }
+    48% { content: "288"; color: white; }
+    49% { content: "294"; color: white; }
+    50% { content: "301"; color: white; }
+    }
